@@ -4,15 +4,24 @@ body {
 }
 
 .container {
-  margin:20px 280px;
-  background-color: #FFFFFF;
+  margin:0px auto;
   max-width: 500px;
-  height: 110px;
-  padding: 15px 0;
-  }
+}
 
-.section-container1 {
-  margin:20px 280px;
+header {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  padding: 12px 30px;
+}
+/*.section-container1 {
+  margin:20px 0px;
   background-color: #FFFFFF;
   max-width: 440px;
   height:300px;
@@ -24,22 +33,21 @@ body {
   background-color: #FFFFFF;
   max-width: 440px;
   padding:10px 30px 20px 30px;
-}
+}*/
 
 h1, .tagline {
   text-align: center;
 }
+
+
 
 h2 {
   text-align: left;
   margin: 0px 0px 20px 0;
   padding: 15px 0;
   border-bottom-color: #CF975D;
-  border-left-color:#ffffff;
-  border-right-color: #ffffff;
-  border-top-color: #ffffff;
-  border-bottom-width:2px;
-  border-style:solid;
+  border-bottom-width:3px;
+  border-bottom-style: solid;
 }
 
 h2 .city-description {
